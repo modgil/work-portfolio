@@ -1,0 +1,59 @@
+.container3 {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  overflow: hidden; }
+
+.work-text {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  justify-content: space-around; }
+  .work-text p {
+    width: 400px;
+    color: #cd853f; }
+  .work-text h1 {
+    color: #a0522d; }
+
+.work-wrap {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  height: 400px;
+  background: url("frontend1.PNG");
+  background-size: cover;
+  background-position: center; }
+  .work-wrap .work-content {
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    justify-content: space-around;
+    width: 100%; }
+    .work-wrap .work-content .work {
+      width: 150px;
+      height: 100px;
+      transform-style: preserve-3d;
+      transition: all, 5s ease; }
+      .work-wrap .work-content .work img {
+        border: 1px solid white;
+        width: 100%;
+        height: 100%; }
+
+/*# sourceMappingURL=style4.css.map */

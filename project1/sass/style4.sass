@@ -1,0 +1,51 @@
+@mixin flex
+ display: flex
+ -webkit-display: flex
+ -moz-display: flex
+ -o-display: flex
+
+.container3
+ @include flex
+ flex-direction: column
+ align-items: center
+ flex-wrap: wrap
+ justify-content: space-between
+ width: 100%
+ height: 600px
+ margin-top: 50px
+ overflow: hidden
+
+.work-text
+ @include flex
+ flex-direction: column
+ align-items: center
+ height: 150px
+ justify-content: space-around 
+ p
+  width: 400px
+  color: #cd853f
+ h1
+  color: #a0522d 
+.work-wrap
+ @include flex
+ justify-content: space-between
+ align-items: flex-end
+ width: 90%
+ height: 400px
+ background: url('frontend1.PNG')
+ background-size: cover
+ background-position: center
+ .work-content
+  @include flex
+  justify-content: space-around
+  width: 100%
+  .work
+   width: 150px
+   height: 100px
+   transform-style: preserve-3d
+   transition: all ,5s ease
+  
+   img
+    border: 1px solid white
+    width: 100%
+    height: 100%

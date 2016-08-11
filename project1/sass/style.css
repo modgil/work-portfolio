@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.main-header {
+  top: 0px;
+  background: url("header.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  overflow: hidden; }
+
+.header {
+  display: flex;
+  display: -webkit-flex;
+  -moz-display: flex;
+  justify-content: center; }
+
+.logo {
+  position: fixed;
+  background: url("logo.svg");
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px; }
+
+.main-nav {
+  position: relative;
+  color: pink;
+  width: 100%;
+  height: 100px;
+  align-items: flex-end;
+  flex-shrink: 7; }
+
+.menu {
+  display: flex;
+  display: -webkit-flex;
+  -moz-display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none; }
+  .menu li {
+    display: flex;
+    display: -webkit-flex;
+    -moz-display: flex;
+    flex-basis: 0px;
+    flex-shrink: 5;
+    width: 100px;
+    margin: 20px;
+    text-decoration: none; }
+    .menu li a {
+      text-decoration: none;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.7); }
+    .menu li a:hover {
+      color: white; }
+
+.artist h1 {
+  display: flex;
+  display: -webkit-flex;
+  -moz-display: flex;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 30%;
+  font-size: 100px;
+  color: white; }
+.artist span {
+  display: flex;
+  display: -webkit-flex;
+  -moz-display: flex;
+  color: black;
+  font-size: 20px;
+  font-family: fantasy;
+  margin: 50px;
+  padding-left: 40%; }
+
+@media(max-width: 1000px) {
+  .artist h1 {
+    font-size: 50px; }
+  .artist span {
+    padding-left: 30%; } }
+@media(max-width: 500px) {
+  .main-nav {
+    width: 500px; }
+
+  .menu li {
+    padding: 10px;
+    width: 20px;
+    margin-left: 35px;
+    margin-right: 20px; }
+    .menu li a {
+      padding: 0px;
+      font-size: 16px;
+      font-family: fantasy; }
+
+  .logo {
+    margin-left: 0px; }
+
+  .artist h1 {
+    font-size: 50px;
+    padding-left: 18%; }
+  .artist span {
+    padding-left: 15%; } }
+@media(max-width: 350px) {
+  .main-nav {
+    width: 350px; }
+
+  .menu li {
+    width: 20px;
+    margin-left: 30px;
+    margin-rigth: 10px; }
+    .menu li a {
+      font-size: 13px;
+      font-family: fantasy; }
+
+  .logo {
+    opacity: 0; }
+
+  .artist h1 {
+    font-size: 35px;
+    padding-left: 20%; }
+  .artist span {
+    padding-left: 0%;
+    font-size: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
